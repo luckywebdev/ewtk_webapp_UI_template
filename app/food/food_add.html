@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="author" content="ThemePixels">
+
+    <title>Eat Well</title>
+
+    <!-- vendor css -->
+    <link href="../../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="../../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="../../lib/rickshaw/rickshaw.min.css" rel="stylesheet">
+    <link href="../../lib/datatables/jquery.dataTables.css" rel="stylesheet">
+    <link href="../../lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="../../lib/chartist/chartist.css" rel="stylesheet">
+
+    <!-- Bracket CSS -->
+    <link rel="stylesheet" href="../../css/bracket.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+  </head>
+
+  <body>
+
+    <!-- ########## START: LEFT PANEL ########## -->
+    <div class="br-logo"><a href=""><span>
+        <img src="../../img/logo/EatWell logo horizontal.png" alt="logo" class="ht-45">
+    </span></a></div>
+    <div class="br-sideleft overflow-y-auto">
+      <label class="sidebar-label pd-x-15 mg-t-20">Navigation</label>
+      <div class="br-sideleft-menu">
+        <a href="../../index.html" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
+            <span class="menu-item-label">Dashboard</span>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <a href="#" class="br-menu-link active">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
+            <span class="menu-item-label">Food</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="../../app/food/index.html" class="nav-link">All</a></li>
+          <li class="nav-item"><a href="../../app/food/liked.html" class="nav-link">Liked</a></li>
+          <li class="nav-item"><a href="../../app/food/recent.html" class="nav-link">Recent</a></li>
+          <li class="nav-item"><a href=".././app/food/myfood.html" class="nav-link">My Foods</a></li>
+          <li class="nav-item active"><a href="../../app/food/food_add.html" class="nav-link active">Add</a></li>
+        </ul>
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon ion-ios-redo-outline tx-24"></i>
+            <span class="menu-item-label">Diary</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="../../app/diary/log.html" class="nav-link">Log</a></li>
+          <li class="nav-item"><a href="../../app/diary/trends.html" class="nav-link">Trends</a></li>
+          <li class="nav-item"><a href="../../app/diary/meals.html" class="nav-link">Meals</a></li>
+          <li class="nav-item"><a href="../../app//diary/fine_tune.html" class="nav-link">Fine Tune</a></li>
+          <li class="nav-item"><a href="../../app/diary/reports.html" class="nav-link">Reports</a></li>
+        </ul>
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon ion-ios-pie-outline tx-20"></i>
+            <span class="menu-item-label">Plan</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="../../app/plan/macro_plan.html" class="nav-link">Macro Meal Plan</a></li>
+          <li class="nav-item"><a href="../../app/plan/batch_menu.html" class="nav-link">Batch Menu</a></li>
+          <li class="nav-item"><a href="../../app/plan/ingredients.html" class="nav-link">Ingredients</a></li>
+          <li class="nav-item"><a href="../../app/plan/instructions.html" class="nav-link">Instructions</a></li>
+          <li class="nav-item"><a href="../../app/plan/meal_builder.html" class="nav-link">Meal Builder</a></li>
+        </ul>
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-gear-outline tx-24"></i>
+            <span class="menu-item-label">About</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-bookmarks-outline tx-20"></i>
+            <span class="menu-item-label">Goals</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="../../app/goals/calories.html" class="nav-link">Calories</a></li>
+          <li class="nav-item"><a href="../../app/goals/macros.html" class="nav-link">Macros</a></li>
+          <li class="nav-item"><a href="../../app/goals/timing.html" class="nav-link">Timing</a></li>
+          <li class="nav-item"><a href="../../app/goals/notes.html" class="nav-link">Notes</a></li>
+        </ul>
+        <a href="#" class="br-menu-link">
+          <div class="br-menu-item">
+            <i class="menu-item-icon icon ion-ios-navigate-outline tx-24"></i>
+            <span class="menu-item-label">Profile</span>
+            <i class="menu-item-arrow fa fa-angle-down"></i>
+          </div><!-- menu-item -->
+        </a><!-- br-menu-link -->
+        <ul class="br-menu-sub nav flex-column">
+          <li class="nav-item"><a href="../../app/profile/profile.html" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="../../app/profile/payment.html" class="nav-link">Payment</a></li>
+          <li class="nav-item"><a href="../../profile/settings.html" class="nav-link">Settings</a></li>
+        </ul>
+      </div><!-- br-sideleft-menu -->
+
+
+      <br>
+    </div><!-- br-sideleft -->
+    <!-- ########## END: LEFT PANEL ########## -->
+
+    <!-- ########## START: HEAD PANEL ########## -->
+    <div class="br-header">
+      <div class="br-header-left">
+        <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href=""><i class="icon ion-navicon-round"></i></a></div>
+        <div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href=""><i class="icon ion-navicon-round"></i></a></div>
+      </div><!-- br-header-left -->
+      <div class="br-header-right">
+        <nav class="nav">
+          <div class="dropdown">
+            <a href="" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
+              <i class="icon ion-ios-email-outline tx-24"></i>
+              <!-- start: if statement -->
+              <span class="square-8 bg-danger pos-absolute t-15 r-0 rounded-circle"></span>
+              <!-- end: if statement -->
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-300 pd-0-force">
+              <div class="d-flex align-items-center justify-content-between pd-y-10 pd-x-20 bd-b bd-gray-200">
+                <label class="tx-12 tx-info tx-uppercase tx-semibold tx-spacing-2 mg-b-0">Messages</label>
+                <a href="" class="tx-11">+ Add New Message</a>
+              </div><!-- d-flex -->
+
+              <div class="media-list">
+                <!-- loop starts here -->
+                <a href="" class="media-list-link">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <div class="d-flex align-items-center justify-content-between mg-b-5">
+                        <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Donna Seay</p>
+                        <span class="tx-11 tx-gray-500">2 minutes ago</span>
+                      </div><!-- d-flex -->
+                      <p class="tx-12 mg-b-0">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.</p>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <!-- loop ends here -->
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <div class="d-flex align-items-center justify-content-between mg-b-5">
+                        <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Samantha Francis</p>
+                        <span class="tx-11 tx-gray-500">3 hours ago</span>
+                      </div><!-- d-flex -->
+                      <p class="tx-12 mg-b-0">My entire soul, like these sweet mornings of spring.</p>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <div class="d-flex align-items-center justify-content-between mg-b-5">
+                        <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Robert Walker</p>
+                        <span class="tx-11 tx-gray-500">5 hours ago</span>
+                      </div><!-- d-flex -->
+                      <p class="tx-12 mg-b-0">I should be incapable of drawing a single stroke at the present moment...</p>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <div class="d-flex align-items-center justify-content-between mg-b-5">
+                        <p class="mg-b-0 tx-medium tx-gray-800 tx-14">Larry Smith</p>
+                        <span class="tx-11 tx-gray-500">Yesterday</span>
+                      </div><!-- d-flex -->
+                      <p class="tx-12 mg-b-0">When, while the lovely valley teems with vapour around me, and the meridian sun strikes...</p>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <div class="pd-y-10 tx-center bd-t">
+                  <a href="" class="tx-12"><i class="fa fa-angle-down mg-r-5"></i> Show All Messages</a>
+                </div>
+              </div><!-- media-list -->
+            </div><!-- dropdown-menu -->
+          </div><!-- dropdown -->
+          <div class="dropdown">
+            <a href="" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
+              <i class="icon ion-ios-bell-outline tx-24"></i>
+              <!-- start: if statement -->
+              <span class="square-8 bg-danger pos-absolute t-15 r-5 rounded-circle"></span>
+              <!-- end: if statement -->
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-300 pd-0-force">
+              <div class="d-flex align-items-center justify-content-between pd-y-10 pd-x-20 bd-b bd-gray-200">
+                <label class="tx-12 tx-info tx-uppercase tx-semibold tx-spacing-2 mg-b-0">Notifications</label>
+                <a href="" class="tx-11">Mark All as Read</a>
+              </div><!-- d-flex -->
+
+              <div class="media-list">
+                <!-- loop starts here -->
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Suzzeth Bungaos</strong> tagged you and 18 others in a post.</p>
+                      <span class="tx-12">October 03, 2017 8:45am</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <!-- loop ends here -->
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Mellisa Brown</strong> appreciated your work <strong class="tx-medium tx-gray-800">The Social Network</strong></p>
+                      <span class="tx-12">October 02, 2017 12:44am</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700">20+ new items added are for sale in your <strong class="tx-medium tx-gray-800">Sale Group</strong></p>
+                      <span class="tx-12">October 01, 2017 10:20pm</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media pd-x-20 pd-y-15">
+                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle" alt="">
+                    <div class="media-body">
+                      <p class="tx-13 mg-b-0 tx-gray-700"><strong class="tx-medium tx-gray-800">Julius Erving</strong> wants to connect with you on your conversation with <strong class="tx-medium tx-gray-800">Ronnie Mara</strong></p>
+                      <span class="tx-12">October 01, 2017 6:08pm</span>
+                    </div>
+                  </div><!-- media -->
+                </a>
+                <div class="pd-y-10 tx-center bd-t">
+                  <a href="" class="tx-12"><i class="fa fa-angle-down mg-r-5"></i> Show All Notifications</a>
+                </div>
+              </div><!-- media-list -->
+            </div><!-- dropdown-menu -->
+          </div><!-- dropdown -->
+          <div class="dropdown">
+            <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
+              <span class="logged-name hidden-md-down">Katherine</span>
+              <img src="http://via.placeholder.com/64x64" class="wd-32 rounded-circle" alt="">
+              <span class="square-10 bg-success"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-200">
+              <ul class="list-unstyled user-profile-nav">
+                <li><a href=""><i class="icon ion-ios-person"></i> Edit Profile</a></li>
+                <li><a href=""><i class="icon ion-ios-gear"></i> Settings</a></li>
+                <li><a href=""><i class="icon ion-ios-download"></i> Downloads</a></li>
+                <li><a href=""><i class="icon ion-ios-star"></i> Favorites</a></li>
+                <li><a href=""><i class="icon ion-ios-folder"></i> Collections</a></li>
+                <li><a href=""><i class="icon ion-power"></i> Sign Out</a></li>
+              </ul>
+            </div><!-- dropdown-menu -->
+          </div><!-- dropdown -->
+        </nav>
+      </div><!-- br-header-right -->
+    </div><!-- br-header -->
+    <!-- ########## END: HEAD PANEL ########## -->
+
+
+    <!-- ########## START: MAIN PANEL ########## -->
+    <div class="br-mainpanel">
+        <div class="pd-30">
+            <h4 class="tx-gray-800 mg-b-5">Food</h4>
+            <p class="mg-b-0">Food / Add</p>
+        </div><!-- d-flex -->
+
+        <div class="container">
+          <div class="table-wrapper">
+            <table id="datatable1" class="table display responsive nowrap table-bordered table-colored table-success">
+              <thead>
+                <tr>
+                  <th class="wd-10p">#</th>
+                  <th class="wd-30p">Input_Categories</th>
+                  <th class="wd-30p">Example</th>
+                  <th class="wd-30p">Input</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Food Name</td>
+                  <td>Margarine</td>
+                  <td><input type="text" name="food_name" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_name"></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Food Brand</td>
+                  <td>I can't believe</td>
+                  <td><input type="text" name="food_brand" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_brand"></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Food Description</td>
+                  <td>With Olive oil</td>
+                  <td><input type="text" name="food_description" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_description"></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Food Barcode</td>
+                  <td>## ##(8/12)</td>
+                  <td><input type="text" name="food_barcode" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_barcode"></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Food Category</td>
+                  <td>Odds</td>
+                  <td><input type="text" name="food_category" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_category"></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Food Cuisine</td>
+                  <td>Integration Specialist</td>
+                  <td><input type="text" name="food_cuisine" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_cuisine"></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Fppd Source</td>
+                  <td>Sales Assistant</td>
+                  <td><input type="text" name="food_source" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_source"></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Food Label Location</td>
+                  <td>Integration Specialist</td>
+                  <td><input type="text" name="food_location" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="food_location"></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Picture Show</td>
+                  <td>Javascript Developer</td>
+                  <td><input type="text" name="picture_show" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="picture_show"></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Picture Ref</td>
+                  <td>Margarine.jpg</td>
+                  <td><input type="text" name="picture_ref" class="food_add form-control mg-0 pd-0 bd-0 bg-transparent" id="picture_ref"></td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Gaines</td>
+                  <td>Office Manager</td>
+                  <td>2008/12/19</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Flynn</td>
+                  <td>Support Lead</td>
+                  <td>2013/03/03</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Marshall</td>
+                  <td>Regional Director</td>
+                  <td>2008/10/16</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Kennedy</td>
+                  <td>Senior Marketing Designer</td>
+                  <td>2012/12/18</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Fitzpatrick</td>
+                  <td>Regional Director</td>
+                  <td>2010/03/17</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>Silva</td>
+                  <td>Marketing Designer</td>
+                  <td>2012/11/27</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>17</td>
+                  <td>Chief Financial Officer</td>
+                  <td>2010/06/09</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Little</td>
+                  <td>Systems Administrator</td>
+                  <td>2009/04/10</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Greer</td>
+                  <td>Software Engineer</td>
+                  <td>2012/10/13</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Rios</td>
+                  <td>Personnel Lead</td>
+                  <td>2012/09/26</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>Caldwell</td>
+                  <td>Development Lead</td>
+                  <td>2011/09/03</td>
+                </tr>
+                <tr>
+                  <td>22</td>
+                  <td>Berry</td>
+                  <td>Chief Marketing Officer</td>
+                  <td>2009/06/25</td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>Vance</td>
+                  <td>Pre-Sales Support</td>
+                  <td>2011/12/12</td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>Wilder</td>
+                  <td>Sales Assistant</td>
+                  <td>2010/09/20</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>Ramos</td>
+                  <td>Chief Executive Officer</td>
+                  <td>2009/10/09</td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>Joyce</td>
+                  <td>Developer</td>
+                  <td>2010/12/22</td>
+                </tr>
+                <tr>
+                  <td>27</td>
+                  <td>Chang</td>
+                  <td>Regional Director</td>
+                  <td>2010/11/14</td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>Wagner</td>
+                  <td>Software Engineer</td>
+                  <td>2011/06/07</td>
+                </tr>
+                <tr>
+                  <td>29</td>
+                  <td>Green</td>
+                  <td>Chief Operating Officer</td>
+                  <td>2010/03/11</td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>Itou</td>
+                  <td>Regional Marketing</td>
+                  <td>2011/08/14</td>
+                </tr>
+                <tr>
+                  <td>31</td>
+                  <td>House</td>
+                  <td>Integration Specialist</td>
+                  <td>2011/06/02</td>
+                </tr>
+                <tr>
+                  <td>32</td>
+                  <td>Burks</td>
+                  <td>Developer</td>
+                  <td>2009/10/22</td>
+                </tr>
+                <tr>
+                  <td>33</td>
+                  <td>Bartlett</td>
+                  <td>Technical Author</td>
+                  <td>2011/05/07</td>
+                </tr>
+                <tr>
+                  <td>34</td>
+                  <td>Cortez</td>
+                  <td>Team Leader</td>
+                  <td>2008/10/26</td>
+                </tr>
+                <tr>
+                  <td>35</td>
+                  <td>Mc35cray</td>
+                  <td>Post-Sales support</td>
+                  <td>2011/03/09</td>
+                </tr>
+                <tr>
+                  <td>36</td>
+                  <td>Butler</td>
+                  <td>Marketing Designer</td>
+                  <td>2009/12/09</td>
+                </tr>
+                <tr>
+                  <td>37</td>
+                  <td>Hatfield</td>
+                  <td>Office Manager</td>
+                  <td>2008/12/16</td>
+                </tr>
+                <tr>
+                  <td>38</td>
+                  <td>Fuentes</td>
+                  <td>Secretary</td>
+                  <td>2010/02/12</td>
+                </tr>
+                <tr>
+                  <td>39</td>
+                  <td>Harrell</td>
+                  <td>Financial Controller</td>
+                  <td>2009/02/14</td>
+                </tr>
+                <tr>
+                  <td>40</td>
+                  <td>Mooney</td>
+                  <td>Office Manager</td>
+                  <td>2008/12/11</td>
+                </tr>
+                <tr>
+                  <td>41</td>
+                  <td>Bradshaw</td>
+                  <td>Director</td>
+                  <td>2008/09/26</td>
+                </tr>
+                <tr>
+                  <td>42</td>
+                  <td>Liang</td>
+                  <td>Support Engineer</td>
+                  <td>2011/02/03</td>
+                </tr>
+                <tr>
+                  <td>43</td>
+                  <td>Nash</td>
+                  <td>Software Engineer</td>
+                  <td>2011/05/03</td>
+                </tr>
+                <tr>
+                  <td>44</td>
+                  <td>Yamamoto</td>
+                  <td>Support Engineer</td>
+                  <td>2009/08/19</td>
+                </tr>
+                <tr>
+                  <td>45</td>
+                  <td>Walton</td>
+                  <td>Developer</td>
+                  <td>2013/08/11</td>
+                </tr>
+                <tr>
+                  <td>46</td>
+                  <td>Camacho</td>
+                  <td>Support Engineer</td>
+                  <td>2009/07/07</td>
+                </tr>
+                <tr>
+                  <td>47</td>
+                  <td>Baldwin</td>
+                  <td>Data Coordinator</td>
+                  <td>2012/04/09</td>
+                </tr>
+                <tr>
+                  <td>48</td>
+                  <td>Frank</td>
+                  <td>Software Engineer</td>
+                  <td>2010/01/04</td>
+                </tr>
+                <tr>
+                  <td>49</td>
+                  <td>Serrano</td>
+                  <td>Software Engineer</td>
+                  <td>2012/06/01</td>
+                </tr>
+                <tr>
+                  <td>50</td>
+                  <td>Acosta</td>
+                  <td>Junior Javascript Developer</td>
+                  <td>2013/02/01</td>
+                </tr>
+                <tr>
+                  <td>51</td>
+                  <td>Stevens</td>
+                  <td>Sales Assistant</td>
+                  <td>2011/12/06</td>
+                </tr>
+                <tr>
+                  <td>52</td>
+                  <td>Butler</td>
+                  <td>Regional Director</td>
+                  <td>2011/03/21</td>
+                </tr>
+                <tr>
+                  <td>53</td>
+                  <td>Greer</td>
+                  <td>Systems Administrator</td>
+                  <td>2009/02/27</td>
+                </tr>
+                <tr>
+                  <td>54</td>
+                  <td>Alexander</td>
+                  <td>Developer</td>
+                  <td>2010/07/14</td>
+                </tr>
+                <tr>
+                  <td>55</td>
+                  <td>Decker</td>
+                  <td>Regional Director</td>
+                  <td>2008/11/13</td>
+                </tr>
+                <tr>
+                  <td>56</td>
+                  <td>Bruce</td>
+                  <td>Javascript Developer</td>
+                  <td>2011/06/27</td>
+                </tr>
+                <tr>
+                  <td>57</td>
+                  <td>Snider</td>
+                  <td>Customer Support</td>
+                  <td>2011/01/25</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- table-wrapper -->
+
+        </div>
+
+      <footer class="br-footer">
+        <div class="footer-left">
+          <div class="mg-b-2">Copyright &copy; 2017. Bracket. All Rights Reserved.</div>
+          <div>Attentively and carefully made by ThemePixels.</div>
+        </div>
+        <div class="footer-right d-flex align-items-center">
+          <span class="tx-uppercase mg-r-10">Share:</span>
+          <a target="_blank" class="pd-x-5" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//themepixels.me/bracket/intro"><i class="fa fa-facebook tx-20"></i></a>
+          <a target="_blank" class="pd-x-5" href="https://twitter.com/home?status=Bracket,%20your%20best%20choice%20for%20premium%20quality%20admin%20template%20from%20Bootstrap.%20Get%20it%20now%20at%20http%3A//themepixels.me/bracket/intro"><i class="fa fa-twitter tx-20"></i></a>
+        </div>
+      </footer>
+    </div><!-- br-mainpanel -->
+    <!-- ########## END: MAIN PANEL ########## -->
+
+    <script src="../../lib/jquery/jquery.js"></script>
+    <script src="../../lib/popper.js/popper.js"></script>
+    <script src="../../lib/bootstrap/bootstrap.js"></script>
+    <script src="../../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../lib/moment/moment.js"></script>
+    <script src="../../lib/jquery-ui/jquery-ui.js"></script>
+    <script src="../../lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="../../lib/peity/jquery.peity.js"></script>
+    <!-- <script src="./lib/chartist/chartist.js"></script> -->
+    <script src="../../lib/datatables/jquery.dataTables.js"></script>
+    <script src="../../lib/datatables-responsive/dataTables.responsive.js"></script>
+    <script src="../../lib/select2/js/select2.min.js"></script>
+    <script src="../../lib/jquery.sparkline.bower/jquery.sparkline.min.js"></script>
+    <script src="../../lib/d3/d3.js"></script>
+    <script src="../../lib/rickshaw/rickshaw.min.js"></script>
+
+
+    <script src="../../js/bracket.js"></script>
+    <script src="../../js/ResizeSensor.js"></script>
+    <!-- <script src="./js/dashboard.js"></script> -->
+    <script>
+      $(function(){
+        'use strict'
+
+        // FOR DEMO ONLY
+        // menu collapsed by default during first page load or refresh with screen
+        // having a size between 992px and 1299px. This is intended on this page only
+        // for better viewing of widgets demo.
+        $(window).resize(function(){
+          minimizeMenu();
+        });
+
+        minimizeMenu();
+
+        function minimizeMenu() {
+          if(window.matchMedia('(min-width: 992px)').matches && window.matchMedia('(max-width: 1299px)').matches) {
+            // show only the icons and hide left menu label by default
+            $('.menu-item-label,.menu-item-arrow').addClass('op-lg-0-force d-lg-none');
+            $('body').addClass('collapsed-menu');
+            $('.show-sub + .br-menu-sub').slideUp();
+          } else if(window.matchMedia('(min-width: 1300px)').matches && !$('body').hasClass('collapsed-menu')) {
+            $('.menu-item-label,.menu-item-arrow').removeClass('op-lg-0-force d-lg-none');
+            $('body').removeClass('collapsed-menu');
+            $('.show-sub + .br-menu-sub').slideDown();
+          }
+        }
+      });
+    </script>
+        <script>
+            $(function() {
+
+                $(".round_progress").each(function() {
+
+                var value = $(this).attr('data-value');
+                var left = $(this).find('.progress-left .progress-bar');
+                var right = $(this).find('.progress-right .progress-bar');
+
+                if (value > 0) {
+                    if (value <= 50) {
+                    right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+                    } else {
+                    right.css('transform', 'rotate(180deg)')
+                    left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+                    }
+                }
+
+                })
+
+                function percentageToDegrees(percentage) {
+
+                    return percentage / 100 * 360
+
+                }
+
+                $('#datatable1').DataTable({
+                  responsive: true,
+                  language: {
+                    searchPlaceholder: 'Search...',
+                    sSearch: '',
+                    lengthMenu: '_MENU_ items/page',
+                  }
+                });
+                        // Select2
+                $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
+
+
+            });
+        </script>
+    
+  </body>
+</html>
